@@ -1,0 +1,7 @@
+<app-header></app-header> 
+<div class="center">
+  <app-post
+    *ngFor='let postObject of postList'
+    [post]="postObject">
+  </app-post>
+</div>
